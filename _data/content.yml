@@ -19,10 +19,10 @@ hero:
     link: "#skills-section"
   bg_title: "Cyber Security"
   info:
-    - num: "2 <strong>+</strong>"
+    - num: "0 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "4"
+    - num: "1"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
@@ -70,13 +70,13 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
+      - label: "JSP" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+        value: "80" #0-100 progress in %
 
       - label: "Python" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        value: "80" #0-100 progress in %
 
   column2:
     items:
@@ -84,17 +84,17 @@ skills:
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "75" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
+      - label: "C 언어" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "70" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
+      - label: "Word" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "90" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
+      - label: "Java" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "80" #0-100 progress in %
 
