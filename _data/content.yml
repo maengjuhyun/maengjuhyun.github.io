@@ -107,20 +107,10 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "korea politech kang seo campus"
+        subname: "syber security"
+        period: "2024 - 2025"
+        text: "."
 
   experience:
     title: "Experience"
@@ -130,48 +120,6 @@ resume:
         period: "2020 - <b>Present</b>"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
-
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
@@ -235,18 +183,6 @@ pricing:
       button:
         label: "Start Project"
         link: "#contact-section"
-
-
-### Blog [ blog ]
-#items generates from dir /_posts/*
-blog:
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
-  bg_title: "Blog"
-  button:
-    label: "View Blog"
-    link: "blog/"
-
 
 ### Contact [ contacts ]
 contacts:
