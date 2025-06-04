@@ -103,8 +103,8 @@ resume:
   education:
     title: "학력"
     items:
-      - name: "korea politech kang seo campus"
-        subname: "syber security"
+      - name: "한국폴리텍 강서캠퍼스"
+        subname: "사이버보안과과"
         period: "2024 - 2025"
         text: "."
 
