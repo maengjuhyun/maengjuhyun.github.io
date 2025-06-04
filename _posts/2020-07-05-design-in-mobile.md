@@ -1,34 +1,91 @@
 ---
 layout: post
-title:  Design in Mobile Application
-date:   2020-07-05
-category: Mobile
+title:  owasp top 10 공격
+date:   2025-06-04
+category: owasp
 image: assets/img/blog/blog-2.jpg
 author: Ryan Adlard
 tags:
-  - app
-  - mobile
+  - ciber security
+  - owasp
 ---
 
-So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+OWASP Top 10: 웹 보안의 핵심을 파헤치다
+웹 개발과 보안의 세계에 있다면 반드시 알고 있어야 할 목록이 있습니다. 바로 OWASP Top 10입니다. OWASP(Open Web Application Security Project)는 전 세계 보안 전문가들이 참여하는 비영리 단체로, 웹 애플리케이션 보안상 가장 치명적인 취약점을 10가지로 정리하여 주기적으로 발표합니다.
 
-Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old.
+✅ OWASP Top 10이 중요한 이유?
+보안 전문가들이 실무에서 가장 자주 접하는 공격 유형 기반
+
+조직의 보안 테스트 및 개발 가이드라인 수립에 활용
+
+컴플라이언스 및 취약점 관리 기준으로도 채택
+
+🔟 OWASP Top 10 (2021 기준)
+1. Broken Access Control (AC 통제 실패)
+설명: 사용자가 권한이 없는 리소스에 접근할 수 있도록 허용된 경우
+예시: 일반 사용자가 URL 조작을 통해 관리자 페이지에 접근
+예방: 역할 기반 접근 제어(RBAC), 서버 측 권한 검증 필수
+
+2. Cryptographic Failures (암호화 실패)
+설명: 민감한 데이터를 암호화 없이 저장하거나 전송
+예시: 비밀번호 평문 저장, HTTPS 미사용
+예방: HTTPS 강제, 암호화 알고리즘 최신화, 키 관리 철저
+
+3. Injection (인젝션)
+설명: 외부 입력을 통해 악의적인 명령이 실행되는 공격
+예시: SELECT * FROM users WHERE name = '$input'
+종류: SQL, OS Command, LDAP, XPATH 등
+예방: 입력값 검증, Prepared Statement 사용
+
+4. Insecure Design (설계 취약점)
+설명: 아예 처음부터 보안을 고려하지 않은 시스템 구조
+예시: 로그인 시도 제한 없음 → Brute Force 공격 가능
+예방: 보안 중심 설계(Security by Design), 위협 모델링
+
+5. Security Misconfiguration (보안 설정 오류)
+설명: 디버그 모드, 기본 계정, 불필요한 서비스 활성화 등
+예시: Apache 디렉터리 인덱싱 열려 있음
+예방: 서버 및 앱 설정 점검 자동화, 최소 권한 원칙 적용
+
+6. Vulnerable and Outdated Components (취약하거나 오래된 컴포넌트)
+설명: 보안 패치가 안 된 라이브러리, 프레임워크 사용
+예시: 취약한 jQuery, Apache Struts 사용
+예방: 주기적인 의존성 점검, SCA 도구 활용
+
+7. Identification and Authentication Failures (인증 실패)
+설명: 인증 절차에 결함이 있어 사용자 인증이 우회됨
+예시: 약한 패스워드 정책, 인증 토큰 탈취
+예방: 다중 인증(MFA), 세션 토큰 보안 강화
+
+8. Software and Data Integrity Failures (무결성 실패)
+설명: 코드나 데이터가 신뢰되지 않은 방식으로 업데이트됨
+예시: 서명 없는 소프트웨어 업데이트, CI/CD 조작
+예방: 코드 서명, CI/CD 파이프라인 보안 강화
+
+9. Security Logging and Monitoring Failures (로깅 및 모니터링 실패)
+설명: 공격이 발생해도 탐지 및 경고가 안 되는 경우
+예시: 관리자 로그인 실패 100회가 로그에 남지 않음
+예방: 실시간 로그 수집, 경고 시스템 연계, SIEM 도입
+
+10. Server-Side Request Forgery (SSRF)
+설명: 서버가 공격자가 조작한 요청을 외부 서버로 전송
+예시: 내부 IP (http://127.0.0.1:8000)에 대한 요청
+예방: 외부 요청 허용 도메인 제한, 입력값 검증 철저
+
+🔍 마무리: 어떻게 대비할까?
+보안은 개발 단계부터 고려해야 합니다.
+
+정기적인 보안 점검과 모의 해킹(PenTest) 훈련이 필요합니다.
+
+무엇보다도 OWASP Top 10은 단순한 "리스트"가 아니라, 보안 문화의 기준점이 되어야 합니다.
+
+📚 추천 학습 자료
+OWASP 공식 웹사이트
+
+OWASP Top 10 프로젝트
+
+모의 해킹 실습 플랫폼: TryHackMe, Hack The Box, DVWA
+
+💡 다음 포스트 예고: OWASP Top 10 실습 환경 구축 방법 (DVWA, Juice Shop, Flask 기반 직접 제작 서버)
 
 
-> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit.
-
-Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing [link](#) sufficient everything men him admiration unpleasing .
-
-* Greatest properly off ham exercise all.
-* Unsatiable invitation its possession nor off.
-* All difficulty estimating unreserved increasing the solicitude.
-
-Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Ryan')
-#=> prints 'Hi, Ryan' to STDOUT.
-```

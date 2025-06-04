@@ -112,8 +112,8 @@ resume:
     title: "경험"
     items:
       - name: " 융합 프로젝트"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
+        subname: "사이버보안과 프로젝트."
+        period: "2025 - <b>Present</b>"
         text: "owasp 선정 top 10 사이버공격 자동화 툴 사이트 제작"
 
 
