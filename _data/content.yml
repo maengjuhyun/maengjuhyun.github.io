@@ -19,7 +19,7 @@ hero:
     link: "#skills-section"
   bg_title: "Cyber Security"
   info:
-    - num: "0 <strong>+</strong>"
+    - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
     - num: "1"
@@ -65,34 +65,34 @@ skills:
   bg_title: "Skills"
 
   column1:
-  items:
-    - label: "리눅스 마스터 2급"
-      text: "리눅스 시스템의 기본적인 명령어 사용, 파일 시스템 관리, 사용자 및 프로세스 관리 능력을 평가하는 자격증입니다."
-      value: "80"
+    items:
+      - label: "리눅스 마스터 2급"
+        text: "리눅스 시스템의 기본적인 명령어 사용, 파일 시스템 관리, 사용자 및 프로세스 관리 능력을 평가하는 자격증입니다."
+        value: "80"
 
-    - label: "Python"
-      text: "간결하고 직관적인 문법을 가진 고급 프로그래밍 언어로, 데이터 분석, 웹 개발, 인공지능 등 다양한 분야에서 활용됩니다."
-      value: "80"
+      - label: "Python"
+        text: "간결하고 직관적인 문법을 가진 고급 프로그래밍 언어로, 데이터 분석, 웹 개발, 인공지능 등 다양한 분야에서 활용됩니다."
+        value: "80"
 
-column2:
-  items:
-    - label: "네트워크 관리사 2급"
-      text: "네트워크의 기본 이론과 구조, 장비 설정 및 운영에 대한 지식을 평가하는 국가공인 자격증입니다."
-      value: "75"
+  column2:
+    items:
+      - label: "네트워크 관리사 2급"
+        text: "네트워크의 기본 이론과 구조, 장비 설정 및 운영에 대한 지식을 평가하는 국가공인 자격증입니다."
+        value: "75"
 
-    - label: "C 언어"
-      text: "시스템 프로그래밍에 적합한 절차지향 언어로, 메모리 제어와 성능 중심의 프로그램 개발에 널리 사용됩니다."
-      value: "70"
+      - label: "C 언어"
+        text: "시스템 프로그래밍에 적합한 절차지향 언어로, 메모리 제어와 성능 중심의 프로그램 개발에 널리 사용됩니다."
+        value: "70"
 
-column3:
-  items:
-    - label: "워드 프로세스"
-      text: "문서 작성과 편집, 출력 등에 필요한 실무 능력을 평가하는 자격증으로, 공공기관 및 기업에서 널리 활용됩니다."
-      value: "90"
+  column3:
+    items:
+      - label: "워드 프로세스"
+        text: "문서 작성과 편집, 출력 등에 필요한 실무 능력을 평가하는 자격증으로, 공공기관 및 기업에서 널리 활용됩니다."
+        value: "90"
 
-    - label: "Java"
-      text: "객체지향 기반의 프로그래밍 언어로, 플랫폼 독립성과 풍부한 라이브러리를 통해 웹, 앱, 서버 개발에 폭넓게 사용됩니다."
-      value: "80"
+      - label: "Java"
+        text: "객체지향 기반의 프로그래밍 언어로, 플랫폼 독립성과 풍부한 라이브러리를 통해 웹, 앱, 서버 개발에 폭넓게 사용됩니다."
+        value: "80"
 
 ### Resume [ resume ]
 resume:
@@ -104,7 +104,7 @@ resume:
     title: "학력"
     items:
       - name: "한국폴리텍 강서캠퍼스"
-        subname: "사이버보안과과"
+        subname: "사이버보안과"
         period: "2024 - 2025"
         text: "."
 
@@ -114,7 +114,7 @@ resume:
       - name: " 융합 프로젝트"
         subname: "Soft Tech Inc."
         period: "2020 - <b>Present</b>"
-        text: "owasp 선정 top 10 사이버공격 자동화 툴 사이트 제작작"
+        text: "owasp 선정 top 10 사이버공격 자동화 툴 사이트 제작"
 
 
 ### Contact [ contacts ]
@@ -135,3 +135,23 @@ contacts:
     - label: "전화번호"
       icon: "far fa-address-book"
       text: "+82 10-2914-1512"
+
+      ### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "Portfolio"
+  subtitle: "my <b>Cases</b>"
+  bg_title: "Portfolio"
+  button:
+    link: "works/"
+    label: "View More"
+
+    ### Blog [ blog ]
+#items generates from dir /_posts/*
+blog:
+  title: "Latest Blog"
+  subtitle: "my <b>Articles and Advice</b>"
+  bg_title: "Blog"
+  button:
+    label: "View Blog"
+    link: "blog/"

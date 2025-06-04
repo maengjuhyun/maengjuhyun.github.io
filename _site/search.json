@@ -6,22 +6,6 @@
       "tags"     : "app, mobile",
       "url"      : "/mobile/2020/07/05/design-in-mobile/",
       "date"     : "2020-07-05 00:00:00 +0900"
-    } ,
-  
-    {
-      "title"    : "By spite about what to do",
-      "category" : "Design",
-      "tags"     : "Jekyll",
-      "url"      : "/design/2020/06/15/by-spite-what/",
-      "date"     : "2020-06-15 00:00:00 +0900"
-    } ,
-  
-    {
-      "title"    : "Welcome to Jekyll!",
-      "category" : "VideoMusic",
-      "tags"     : "Jekyll",
-      "url"      : "/video/music/2020/01/08/welcome-to-jekyll/",
-      "date"     : "2020-01-08 00:00:00 +0900"
     } 
   
 ]
