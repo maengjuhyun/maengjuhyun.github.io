@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  AI 시대의 사이버보안: ChatGPT는 해커의 도구가 될 수 있을까?
-date:   2025-06-04
-category: 시사
-image: assets/img/blog/blog-4.jpg
-author: 맹주현
+title: "AI 시대의 사이버보안: ChatGPT는 해커의 도구가 될 수 있을까?"
+date: 2025-06-04
+categories: [시사, cybersecurity]
 tags:
-  - ciber security
+  - cyber security
   - AI
   - ChatGPT
+author: 맹주현
+image: /assets/img/blog/blog-4.jpg
+---
+
 ---
 AI 기술은 보안의 미래를 바꾸고 있습니다.
 ChatGPT와 같은 생성형 AI는 보안 전문가에게는 막강한 도구이지만, 해커에게도 새로운 기회를 열어주는 양날의 검이 되고 있습니다.
